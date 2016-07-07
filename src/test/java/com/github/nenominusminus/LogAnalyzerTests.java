@@ -1,14 +1,14 @@
 package com.github.nenominusminus;
 
-import com.sun.javaws.exceptions.InvalidArgumentException;
-import junit.framework.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Categories;
+
+import junit.framework.Assert;
 
 public class LogAnalyzerTests {
 	@Test
 	@Categories.IncludeCategory(FileExtensionTests.class)
-	public void IsValidLogFileName_BadExtension_ReturnsFalse() throws InvalidArgumentException {
+	public void IsValidLogFileName_BadExtension_ReturnsFalse() {
 		LogAnalyzer analyzer = new LogAnalyzer();
 
 		boolean result = analyzer.isValidLogFileName("filewithbadextension.foo");

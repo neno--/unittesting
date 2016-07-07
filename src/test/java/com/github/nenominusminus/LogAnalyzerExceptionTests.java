@@ -1,14 +1,10 @@
 package com.github.nenominusminus;
 
-import junit.framework.Assert;
-
+import org.hamcrest.core.StringContains;
 import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-
-import com.sun.javaws.exceptions.InvalidArgumentException;
-import org.hamcrest.core.StringContains;
 
 public class LogAnalyzerExceptionTests {
 	private LogAnalyzer analyzer;
