@@ -23,13 +23,12 @@
   <component name="EclipseCodeFormatter">
     <option name="defaultSettings" value="true" />
     <option name="formatter" value="ECLIPSE" />
-    <option name="id" value="1443356011041" />
+    <option name="id" value="1467889464995" />
     <option name="importOrderConfigFilePath" value="C:/dev/m2m/workspace/idea_conf/kapsch.importorder" />
     <option name="importOrderFromFile" value="true" />
     <option name="name" value="default" />
     <option name="pathToConfigFileJava" value="C:/dev/m2m/workspace/idea_conf/kapsch-code-conventions.xml" />
     <option name="selectedJavaProfile" value="Kapsch" />
-    <option name="useOldEclipseJavaFormatter" value="true" />
   </component>
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" charset="windows-1250" />
