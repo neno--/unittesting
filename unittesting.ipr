@@ -69,6 +69,9 @@
       <console-settings />
     </option>
   </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
   <component name="libraryTable">
     <library name="lib">
       <CLASSES>

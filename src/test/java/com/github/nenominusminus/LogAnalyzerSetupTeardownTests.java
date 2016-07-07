@@ -7,6 +7,7 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.experimental.categories.Categories;
 
 import static java.lang.System.out;
 
@@ -31,6 +32,7 @@ public class LogAnalyzerSetupTeardownTests {
 	}
 
 	@AfterClass
+	@Categories.IncludeCategory(FileExtensionTests.class)
 	public static void finalTeardown() {
 		out.println("finalTeardown");
 	}
@@ -48,6 +50,7 @@ public class LogAnalyzerSetupTeardownTests {
 	}
 
 	@Test
+	@Categories.IncludeCategory(FileExtensionTests.class)
 	public void IsValidLogFileName_GoodExtensionLowercase_ReturnsTrue() {
 		LogAnalyzer analyzer = new LogAnalyzer();
 
@@ -57,6 +60,7 @@ public class LogAnalyzerSetupTeardownTests {
 	}
 
 	@Test
+	@Categories.IncludeCategory(FileExtensionTests.class)
 	public void IsValidLogFileName_GoodExtensionUppercase_ReturnsTrue() {
 		LogAnalyzer analyzer = new LogAnalyzer();
 
