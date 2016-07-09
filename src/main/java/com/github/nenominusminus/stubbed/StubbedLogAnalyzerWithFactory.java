@@ -1,11 +1,11 @@
 package com.github.nenominusminus.stubbed;
 
-public class StubbedLogAnalyzer {
+public class StubbedLogAnalyzerWithFactory {
 	private ExtensionManager extensionManager;
 
-	// constructor injection
-	public StubbedLogAnalyzer(ExtensionManager extensionManager) {
-		this.extensionManager = extensionManager;
+	//dependencies are handled by a factory
+	public StubbedLogAnalyzerWithFactory() {
+		this.extensionManager = ExtensionManagerFactory.create();
 	}
 
 	public boolean isValidLogFileName(String filename) {
