@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import com.github.nenominusminus.LogAnalyzer;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 public class StubbedLogAnalyzerTests {
 	@Test

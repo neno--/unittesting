@@ -2,7 +2,7 @@ package com.github.nenominusminus;
 
 import org.junit.Test;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 public class LogAnalyzerStateTests {
 	@Test

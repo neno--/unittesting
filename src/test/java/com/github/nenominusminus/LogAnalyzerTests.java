@@ -3,7 +3,7 @@ package com.github.nenominusminus;
 import org.junit.Test;
 import org.junit.experimental.categories.Categories;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 public class LogAnalyzerTests {
 	@Test
